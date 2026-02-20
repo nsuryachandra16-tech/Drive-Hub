@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<users><record><id>1</id><name>Boss Surya</name><email>admin@rental.com</email><password>admin</password><role>admin</role></record><record><id>2</id><name>Client One</name><email>user@gmail.com</email><password>user</password><role>user</role></record><record><id>3</id><name>Surya</name><email>surya@gmail.com</email><password>Surya</password><role>user</role></record></users>
