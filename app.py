@@ -62,7 +62,7 @@ def repair_db():
     # USERS
     if not os.path.exists(DB_FILES['users']):
         users = [
-            {"id": "1", "name": "Boss Surya", "email": "admin@rental.com", "password": "admin", "role": "admin"},
+            {"id": "1", "name": "Drive Hub", "email": "admin@rental.com", "password": "admin", "role": "admin"},
             {"id": "2", "name": "Client One", "email": "user@gmail.com", "password": "user", "role": "user"}
         ]
         save_db('users', users)
@@ -900,3 +900,4 @@ function applyCoupon() {
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
+
